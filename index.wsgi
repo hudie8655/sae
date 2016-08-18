@@ -11,7 +11,7 @@ def download():
 	return content
 
 def sendmail(content):
-	send_mail("katherine@vampire.com", "rmrb", content,("smtp.sina.cn", 25, "rmrb321@sina.cn", "123rmrb", False))
+	send_mail("rmrb321@yeah.net", "rmrb", content,("smtp.sina.cn", 25, "rmrb321@sina.cn", "123rmrb", False))
 
 def app(environ, start_response):
     status = '200 OK'
