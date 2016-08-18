@@ -1,2 +1,6 @@
 name: rmrb321
 version: 1
+cron:
+- description: cron_test
+  url: /
+  schedule: "*/10 * * * *"
