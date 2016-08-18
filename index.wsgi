@@ -17,8 +17,8 @@ def app(environ, start_response):
     status = '200 OK'
     response_headers = [('Content-type', 'text/plain')]
     start_response(status, response_headers)
-	body = download()
-	sendmail(body)
+    body = download()
+    sendmail(body)
     return "success"
 
 application = sae.create_wsgi_app(app)
