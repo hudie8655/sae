@@ -1,7 +1,7 @@
 import sae
 import urllib2
 
-def download()
+def download():
 	socket = urllib2.urlopen("http://www.baidu.com")
 	content = socket.read()
 	socket.close()
